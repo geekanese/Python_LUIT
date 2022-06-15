@@ -9,3 +9,16 @@
 # 5. Print the new list and the new length of the list
 #
 #
+    #Create an empty list of AWS Services
+
+
+    # Populate the list using append
+    
+    
+    # Print the list and print the length of the list
+    
+    
+    # Remove two specific services from the list by name or by index
+    
+    
+    # Print the new list and the new length of the list
