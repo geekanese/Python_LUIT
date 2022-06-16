@@ -21,7 +21,8 @@ aws_services.append('Ground Station')
 aws_services.append('Amazon Braket')
     
     # Print the list and print the length of the list
-    
+length = len(aws_services)
+print("This is a list of AWS services", aws_services, "This is the length of this list", length)
     
     # Remove two specific services from the list by name or by index
     
