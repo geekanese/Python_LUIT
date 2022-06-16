@@ -13,7 +13,12 @@
 aws_services = []
 
     # Populate the list using append
-    
+aws_services.append('WorkSpaces')
+aws_services.append('Cloud9')
+aws_services.append('AWS DeepRacer')
+aws_services.append('Glacier')
+aws_services.append('Ground Station')
+aws_services.append('Amazon Braket')
     
     # Print the list and print the length of the list
     
