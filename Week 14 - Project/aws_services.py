@@ -10,7 +10,7 @@
 #
 #
     #Create an empty list of AWS Services
-
+aws_services = []
 
     # Populate the list using append
     
