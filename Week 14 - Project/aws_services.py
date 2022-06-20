@@ -10,21 +10,31 @@
 #
 #
     #Create an empty list of AWS Services
-aws_services = []
+list = []
 
     # Populate the list using append
-aws_services.append('WorkSpaces')
-aws_services.append('Cloud9')
-aws_services.append('AWS DeepRacer')
-aws_services.append('Glacier')
-aws_services.append('Ground Station')
-aws_services.append('Amazon Braket')
-    
+print(list)
+list.append ('WorkSpaces'),
+list.append ('Cloud9'),
+list.append ('AWS DeepRacer'),
+list.append ('Glacier'),
+list.append ('Ground Station'),
+list.append ('Amazon Braket')
+
+
     # Print the list and print the length of the list
-length = len(aws_services)
-print("This is a list of AWS services", aws_services, "This is the length of this list", length)
+print(list)
+len(list)
+
+print ("This is a list of AWS services", list, "This is the length of this list", len(list))
     
     # Remove two specific services from the list by name or by index
-    
+del list[1]
+del list[2]
+new_list = list
+
     
     # Print the new list and the new length of the list
+print(new_list)
+print(len(new_list))
+print("New length of updated list", len(new_list))
