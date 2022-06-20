@@ -1,4 +1,4 @@
-# Week 15 Project - Week one of Python coding/scripting
+# Week 15 Project - Week two of Python coding/scripting
 Project author - Christopher Utley
 
 **EC2 Random Name Generator**
